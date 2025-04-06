@@ -75,7 +75,7 @@ const Community = () => {
 
   useEffect(() => {
     // Initialize socket connection
-    socket.current = io('http://localhost:3001', {
+    socket.current = io(process.env.FRONTEND_URL , {
       transports: ['websocket'],
       upgrade: false
     });
