@@ -1,6 +1,6 @@
 {
     "installCommand": "npm install --legacy-peer-deps",
-    "version": "16.x",
+    "version": 16,
     "builds": [
       {
         "src": "server.js",
